@@ -1,5 +1,5 @@
 {% set name = "whyqd" %}
-{% set version = "1.0.8" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/whyqd-{{ version }}.tar.gz
-  sha256: 9d2f51166ac75b0aaa1caf3a438d91057c377c95e6336c9ed3306e487c72f653
+  sha256: 64755badd616192cacc46810689c2ae05e394ef3efd9e5f3db6e15e13d13ca49
 
 build:
   noarch: python
