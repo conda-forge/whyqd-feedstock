@@ -3,7 +3,7 @@ About whyqd-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/whyqd-feedstock/blob/main/LICENSE.txt)
 
-Home: https://whyqd.com
+Home: https://whyqd.com/
 
 Package license: BSD-3-Clause
 
