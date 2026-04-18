@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: whyqd
-  version: "1.2.5"
+  version: "1.2.7"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/whyqd-${{ version }}.tar.gz
-  sha256: cd6563cc53960ccc32b03d8eedfdeb0080583b5538785a6613a66131f010889c
+  sha256: 8b42a79c6f98e0d44df4aad8504e7d9757a5ca11429bcb68d06e92bb35efb9ff
 
 build:
   number: 0
@@ -44,7 +44,9 @@ tests:
       imports:
         - whyqd
       pip_check: true
-      python_version: ${{ python_min }}.*
+      python_version:
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: A curatorial toolkit intended to produce well-structured and predictable data for research analysis.
