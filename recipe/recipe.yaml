@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: whyqd
-  version: "1.2.7"
+  version: "1.2.8"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/whyqd-${{ version }}.tar.gz
-  sha256: 8b42a79c6f98e0d44df4aad8504e7d9757a5ca11429bcb68d06e92bb35efb9ff
+  sha256: 05ce9a28bd7545d9337c26d96d3702ae7926408a9460d34e49cfaac72b6c83ae
 
 build:
   number: 0
